@@ -96,6 +96,7 @@
             btnLogin.TabIndex = 1;
             btnLogin.Text = "Đăng nhập";
             btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // btnExit
             // 
@@ -107,6 +108,7 @@
             btnExit.TabIndex = 2;
             btnExit.Text = "Thoát";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // FrmLogin
             // 
@@ -119,6 +121,7 @@
             Name = "FrmLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng nhập";
+            FormClosing += FrmLogin_FormClosing;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
