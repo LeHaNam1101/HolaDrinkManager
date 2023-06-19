@@ -203,7 +203,7 @@
             panel3.Controls.Add(btnAdd);
             panel3.Location = new Point(0, 27);
             panel3.Name = "panel3";
-            panel3.Size = new Size(548, 100);
+            panel3.Size = new Size(571, 100);
             panel3.TabIndex = 3;
             // 
             // cbDrink
@@ -247,9 +247,9 @@
             // 
             // lstvBill
             // 
-            lstvBill.Location = new Point(0, 152);
+            lstvBill.Location = new Point(0, 133);
             lstvBill.Name = "lstvBill";
-            lstvBill.Size = new Size(548, 401);
+            lstvBill.Size = new Size(571, 420);
             lstvBill.TabIndex = 4;
             lstvBill.UseCompatibleStateImageBehavior = false;
             // 

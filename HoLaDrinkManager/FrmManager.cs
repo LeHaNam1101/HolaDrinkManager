@@ -30,7 +30,7 @@ namespace HoLaDrinkManager
 
         private void itAdmin_Click(object sender, EventArgs e)
         {
-            FrmAdmin f =new FrmAdmin();
+            FrmAdmin f = new FrmAdmin();
             f.ShowDialog();
         }
     }
