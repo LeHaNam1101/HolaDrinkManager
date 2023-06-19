@@ -31,17 +31,17 @@
             menuStrip1 = new MenuStrip();
             itAdmin = new ToolStripMenuItem();
             itAccInfo = new ToolStripMenuItem();
-            thanhToánToolStripMenuItem = new ToolStripMenuItem();
-            thêmMónCtrlDToolStripMenuItem = new ToolStripMenuItem();
+            itPersonalInfo = new ToolStripMenuItem();
+            itLogout = new ToolStripMenuItem();
             chứcNăngToolStripMenuItem = new ToolStripMenuItem();
-            thanhToánCtrlFToolStripMenuItem = new ToolStripMenuItem();
-            thêmMónCtrlDToolStripMenuItem1 = new ToolStripMenuItem();
+            thêmMónCtrlDToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripMenuItem();
             flbTable = new Panel();
             panel2 = new Panel();
             label1 = new Label();
             txtTotalPrice = new TextBox();
-            numericUpDown1 = new NumericUpDown();
-            button1 = new Button();
+            mmDiscount = new NumericUpDown();
+            btnDiscount = new Button();
             btnPay = new Button();
             panel3 = new Panel();
             cbDrink = new ComboBox();
@@ -51,7 +51,7 @@
             lstvBill = new ListView();
             menuStrip1.SuspendLayout();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mmDiscount).BeginInit();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nbDrinkCount).BeginInit();
             SuspendLayout();
@@ -72,52 +72,57 @@
             itAdmin.Name = "itAdmin";
             itAdmin.Size = new Size(55, 20);
             itAdmin.Text = "Admin";
+            itAdmin.Click += itAdmin_Click;
             // 
             // itAccInfo
             // 
-            itAccInfo.DropDownItems.AddRange(new ToolStripItem[] { thanhToánToolStripMenuItem, thêmMónCtrlDToolStripMenuItem });
+            itAccInfo.DropDownItems.AddRange(new ToolStripItem[] { itPersonalInfo, itLogout });
             itAccInfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             itAccInfo.ForeColor = Color.Blue;
             itAccInfo.Name = "itAccInfo";
             itAccInfo.Size = new Size(126, 20);
             itAccInfo.Text = "Thông tin tài khoản";
             // 
-            // thanhToánToolStripMenuItem
+            // itPersonalInfo
             // 
-            thanhToánToolStripMenuItem.ForeColor = Color.Blue;
-            thanhToánToolStripMenuItem.Name = "thanhToánToolStripMenuItem";
-            thanhToánToolStripMenuItem.Size = new Size(180, 22);
-            thanhToánToolStripMenuItem.Text = "Thông tin cá nhân";
+            itPersonalInfo.ForeColor = Color.Blue;
+            itPersonalInfo.Name = "itPersonalInfo";
+            itPersonalInfo.Size = new Size(172, 22);
+            itPersonalInfo.Text = "Thông tin cá nhân";
+            itPersonalInfo.Click += itPersonalInfo_Click;
             // 
-            // thêmMónCtrlDToolStripMenuItem
+            // itLogout
             // 
-            thêmMónCtrlDToolStripMenuItem.ForeColor = Color.Blue;
-            thêmMónCtrlDToolStripMenuItem.Name = "thêmMónCtrlDToolStripMenuItem";
-            thêmMónCtrlDToolStripMenuItem.Size = new Size(180, 22);
-            thêmMónCtrlDToolStripMenuItem.Text = "Đăng xuất";
+            itLogout.ForeColor = Color.Blue;
+            itLogout.Name = "itLogout";
+            itLogout.Size = new Size(172, 22);
+            itLogout.Text = "Đăng xuất";
+            itLogout.Click += itLogout_Click;
             // 
             // chứcNăngToolStripMenuItem
             // 
-            chứcNăngToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { thanhToánCtrlFToolStripMenuItem, thêmMónCtrlDToolStripMenuItem1 });
+            chứcNăngToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { thêmMónCtrlDToolStripMenuItem, toolStripMenuItem1 });
             chứcNăngToolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             chứcNăngToolStripMenuItem.ForeColor = Color.Blue;
             chứcNăngToolStripMenuItem.Name = "chứcNăngToolStripMenuItem";
             chứcNăngToolStripMenuItem.Size = new Size(77, 20);
             chứcNăngToolStripMenuItem.Text = "Chức năng";
             // 
-            // thanhToánCtrlFToolStripMenuItem
+            // thêmMónCtrlDToolStripMenuItem
             // 
-            thanhToánCtrlFToolStripMenuItem.ForeColor = Color.Blue;
-            thanhToánCtrlFToolStripMenuItem.Name = "thanhToánCtrlFToolStripMenuItem";
-            thanhToánCtrlFToolStripMenuItem.Size = new Size(180, 22);
-            thanhToánCtrlFToolStripMenuItem.Text = "Thanh toán Ctrl+F";
+            thêmMónCtrlDToolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            thêmMónCtrlDToolStripMenuItem.ForeColor = Color.Blue;
+            thêmMónCtrlDToolStripMenuItem.Name = "thêmMónCtrlDToolStripMenuItem";
+            thêmMónCtrlDToolStripMenuItem.Size = new Size(174, 22);
+            thêmMónCtrlDToolStripMenuItem.Text = "Thanh Toán Ctrl+F";
             // 
-            // thêmMónCtrlDToolStripMenuItem1
+            // toolStripMenuItem1
             // 
-            thêmMónCtrlDToolStripMenuItem1.ForeColor = Color.Blue;
-            thêmMónCtrlDToolStripMenuItem1.Name = "thêmMónCtrlDToolStripMenuItem1";
-            thêmMónCtrlDToolStripMenuItem1.Size = new Size(180, 22);
-            thêmMónCtrlDToolStripMenuItem1.Text = "Thêm món Ctrl+D";
+            toolStripMenuItem1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            toolStripMenuItem1.ForeColor = Color.Blue;
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(174, 22);
+            toolStripMenuItem1.Text = "Thêm Món Ctrl+D";
             // 
             // flbTable
             // 
@@ -130,8 +135,8 @@
             // 
             panel2.Controls.Add(label1);
             panel2.Controls.Add(txtTotalPrice);
-            panel2.Controls.Add(numericUpDown1);
-            panel2.Controls.Add(button1);
+            panel2.Controls.Add(mmDiscount);
+            panel2.Controls.Add(btnDiscount);
             panel2.Controls.Add(btnPay);
             panel2.Location = new Point(577, 462);
             panel2.Name = "panel2";
@@ -151,30 +156,33 @@
             // 
             // txtTotalPrice
             // 
+            txtTotalPrice.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             txtTotalPrice.ForeColor = Color.Blue;
             txtTotalPrice.Location = new Point(139, 35);
             txtTotalPrice.Name = "txtTotalPrice";
-            txtTotalPrice.Size = new Size(117, 23);
+            txtTotalPrice.Size = new Size(117, 33);
             txtTotalPrice.TabIndex = 3;
+            txtTotalPrice.Text = "0";
+            txtTotalPrice.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown1
+            // mmDiscount
             // 
-            numericUpDown1.ForeColor = Color.Blue;
-            numericUpDown1.Location = new Point(3, 46);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(114, 23);
-            numericUpDown1.TabIndex = 2;
+            mmDiscount.ForeColor = Color.Blue;
+            mmDiscount.Location = new Point(3, 46);
+            mmDiscount.Name = "mmDiscount";
+            mmDiscount.Size = new Size(114, 23);
+            mmDiscount.TabIndex = 2;
             // 
-            // button1
+            // btnDiscount
             // 
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = Color.Blue;
-            button1.Location = new Point(3, 11);
-            button1.Name = "button1";
-            button1.Size = new Size(114, 29);
-            button1.TabIndex = 1;
-            button1.Text = "Khuyến mãi";
-            button1.UseVisualStyleBackColor = true;
+            btnDiscount.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDiscount.ForeColor = Color.Blue;
+            btnDiscount.Location = new Point(3, 11);
+            btnDiscount.Name = "btnDiscount";
+            btnDiscount.Size = new Size(114, 29);
+            btnDiscount.TabIndex = 1;
+            btnDiscount.Text = "Khuyến mãi";
+            btnDiscount.UseVisualStyleBackColor = true;
             // 
             // btnPay
             // 
@@ -223,6 +231,8 @@
             nbDrinkCount.Name = "nbDrinkCount";
             nbDrinkCount.Size = new Size(120, 23);
             nbDrinkCount.TabIndex = 1;
+            nbDrinkCount.TextAlign = HorizontalAlignment.Center;
+            nbDrinkCount.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // btnAdd
             // 
@@ -255,12 +265,13 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "FrmManager";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Quản lý HolaDrink";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mmDiscount).EndInit();
             panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)nbDrinkCount).EndInit();
             ResumeLayout(false);
@@ -272,11 +283,8 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem itAdmin;
         private ToolStripMenuItem itAccInfo;
-        private ToolStripMenuItem thanhToánToolStripMenuItem;
-        private ToolStripMenuItem thêmMónCtrlDToolStripMenuItem;
-        private ToolStripMenuItem chứcNăngToolStripMenuItem;
-        private ToolStripMenuItem thanhToánCtrlFToolStripMenuItem;
-        private ToolStripMenuItem thêmMónCtrlDToolStripMenuItem1;
+        private ToolStripMenuItem itPersonalInfo;
+        private ToolStripMenuItem itLogout;
         private Panel flbTable;
         private Panel panel2;
         private Panel panel3;
@@ -287,8 +295,11 @@
         private Button btnAdd;
         private Label label1;
         private TextBox txtTotalPrice;
-        private NumericUpDown numericUpDown1;
-        private Button button1;
+        private NumericUpDown mmDiscount;
+        private Button btnDiscount;
         private ListView lstvBill;
+        private ToolStripMenuItem chứcNăngToolStripMenuItem;
+        private ToolStripMenuItem thêmMónCtrlDToolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem1;
     }
 }

@@ -16,5 +16,22 @@ namespace HoLaDrinkManager
         {
             InitializeComponent();
         }
+
+        private void itLogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void itPersonalInfo_Click(object sender, EventArgs e)
+        {
+            FrmAccountInfo f = new FrmAccountInfo();
+            f.ShowDialog();
+        }
+
+        private void itAdmin_Click(object sender, EventArgs e)
+        {
+            FrmAdmin f =new FrmAdmin();
+            f.ShowDialog();
+        }
     }
 }

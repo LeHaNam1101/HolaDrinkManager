@@ -9,7 +9,10 @@
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            FrmManager f = new FrmManager();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
