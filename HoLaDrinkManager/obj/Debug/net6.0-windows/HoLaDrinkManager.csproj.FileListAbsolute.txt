@@ -1,0 +1,17 @@
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\HoLaDrinkManager.exe
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\HoLaDrinkManager.deps.json
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\HoLaDrinkManager.runtimeconfig.json
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\HoLaDrinkManager.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\HoLaDrinkManager.pdb
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.csproj.AssemblyReference.cache
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.FrmLogin.resources
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.csproj.GenerateResource.cache
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.AssemblyInfoInputs.cache
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.AssemblyInfo.cs
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.csproj.CoreCompileInputs.cache
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\refint\HoLaDrinkManager.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.pdb
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.genruntimeconfig.cache
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\ref\HoLaDrinkManager.dll

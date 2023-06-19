@@ -1,3 +1,8 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 namespace HoLaDrinkManager
 {
     internal static class Program
@@ -8,11 +13,10 @@ namespace HoLaDrinkManager
         [STAThread]
         static void Main()
         {
-            //TestbyNamDev
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+                 Application.Run(new FrmLogin());
         }
     }
 }
