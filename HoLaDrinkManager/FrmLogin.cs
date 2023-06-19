@@ -6,5 +6,6 @@ namespace HoLaDrinkManager
         {
             InitializeComponent();
         }
+
     }
 }

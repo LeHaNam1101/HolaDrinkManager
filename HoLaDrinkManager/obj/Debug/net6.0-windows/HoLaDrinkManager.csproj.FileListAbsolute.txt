@@ -15,3 +15,5 @@ D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\r
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.pdb
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.genruntimeconfig.cache
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\ref\HoLaDrinkManager.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.FrmManager.resources
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.Properties.Resources.resources
