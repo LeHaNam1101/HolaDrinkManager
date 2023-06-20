@@ -31,7 +31,7 @@
             tabControl = new TabControl();
             tpBill = new TabPage();
             panel2 = new Panel();
-            dateTimePicker2 = new DateTimePicker();
+            dtpEndDate = new DateTimePicker();
             dtpFromDate = new DateTimePicker();
             btnCount = new Button();
             btnSearchBill = new Button();
@@ -164,7 +164,7 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(dateTimePicker2);
+            panel2.Controls.Add(dtpEndDate);
             panel2.Controls.Add(dtpFromDate);
             panel2.Controls.Add(btnCount);
             panel2.Controls.Add(btnSearchBill);
@@ -175,12 +175,12 @@
             panel2.Size = new Size(814, 75);
             panel2.TabIndex = 1;
             // 
-            // dateTimePicker2
+            // dtpEndDate
             // 
-            dateTimePicker2.Location = new Point(418, 26);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(200, 23);
-            dateTimePicker2.TabIndex = 5;
+            dtpEndDate.Location = new Point(418, 26);
+            dtpEndDate.Name = "dtpEndDate";
+            dtpEndDate.Size = new Size(200, 23);
+            dtpEndDate.TabIndex = 5;
             // 
             // dtpFromDate
             // 
@@ -936,7 +936,7 @@
         private Panel panel1;
         private Button btnExport;
         private DataGridView dgvBill;
-        private DateTimePicker dateTimePicker2;
+        private DateTimePicker dtpEndDate;
         private Panel panel6;
         private Panel panel5;
         private DataGridView dgvDrink;
