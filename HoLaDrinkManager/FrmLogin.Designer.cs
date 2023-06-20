@@ -35,11 +35,13 @@
             lbUsername = new Label();
             btnLogin = new Button();
             btnExit = new Button();
+            label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(label1);
             panel1.Controls.Add(txtPassword);
             panel1.Controls.Add(txtUsername);
             panel1.Controls.Add(lbPassword);
@@ -110,6 +112,17 @@
             btnExit.UseVisualStyleBackColor = true;
             btnExit.Click += btnExit_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.Blue;
+            label1.Location = new Point(172, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(74, 17);
+            label1.TabIndex = 4;
+            label1.Text = "HoLaDrink";
+            // 
             // FrmLogin
             // 
             AcceptButton = btnLogin;
@@ -138,5 +151,6 @@
         private Label lbUsername;
         private Button btnLogin;
         private Button btnExit;
+        private Label label1;
     }
 }

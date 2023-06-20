@@ -251,6 +251,7 @@
             // 
             // dgvBill
             // 
+            dgvBill.BackgroundColor = SystemColors.ActiveCaption;
             dgvBill.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvBill.Location = new Point(0, 0);
             dgvBill.Name = "dgvBill";
@@ -364,6 +365,7 @@
             // 
             // dgvDrink
             // 
+            dgvDrink.BackgroundColor = SystemColors.ActiveCaption;
             dgvDrink.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDrink.Location = new Point(0, 0);
             dgvDrink.Name = "dgvDrink";
@@ -510,6 +512,7 @@
             // 
             // dgvCategory
             // 
+            dgvCategory.BackgroundColor = SystemColors.ActiveCaption;
             dgvCategory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvCategory.Location = new Point(3, 3);
             dgvCategory.Name = "dgvCategory";
@@ -649,6 +652,7 @@
             // 
             // dgvTable
             // 
+            dgvTable.BackgroundColor = SystemColors.ActiveCaption;
             dgvTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvTable.Location = new Point(0, 3);
             dgvTable.Name = "dgvTable";
@@ -818,6 +822,7 @@
             // 
             // dgvAccount
             // 
+            dgvAccount.BackgroundColor = SystemColors.ActiveCaption;
             dgvAccount.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvAccount.Location = new Point(3, 3);
             dgvAccount.Name = "dgvAccount";

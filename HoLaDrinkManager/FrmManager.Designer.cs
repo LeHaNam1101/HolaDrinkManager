@@ -36,7 +36,6 @@
             chứcNăngToolStripMenuItem = new ToolStripMenuItem();
             thêmMónCtrlDToolStripMenuItem = new ToolStripMenuItem();
             toolStripMenuItem1 = new ToolStripMenuItem();
-            flbTable = new Panel();
             panel2 = new Panel();
             label1 = new Label();
             txtTotalPrice = new TextBox();
@@ -49,6 +48,7 @@
             nbDrinkCount = new NumericUpDown();
             btnAdd = new Button();
             lstvBill = new ListView();
+            flbTable = new FlowLayoutPanel();
             menuStrip1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)mmDiscount).BeginInit();
@@ -123,13 +123,6 @@
             toolStripMenuItem1.Name = "toolStripMenuItem1";
             toolStripMenuItem1.Size = new Size(174, 22);
             toolStripMenuItem1.Text = "Thêm Món Ctrl+D";
-            // 
-            // flbTable
-            // 
-            flbTable.Location = new Point(577, 27);
-            flbTable.Name = "flbTable";
-            flbTable.Size = new Size(385, 429);
-            flbTable.TabIndex = 1;
             // 
             // panel2
             // 
@@ -253,15 +246,22 @@
             lstvBill.TabIndex = 4;
             lstvBill.UseCompatibleStateImageBehavior = false;
             // 
+            // flbTable
+            // 
+            flbTable.Location = new Point(577, 27);
+            flbTable.Name = "flbTable";
+            flbTable.Size = new Size(385, 429);
+            flbTable.TabIndex = 5;
+            // 
             // FrmManager
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(974, 554);
+            Controls.Add(flbTable);
             Controls.Add(lstvBill);
             Controls.Add(panel3);
             Controls.Add(panel2);
-            Controls.Add(flbTable);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "FrmManager";
@@ -285,7 +285,6 @@
         private ToolStripMenuItem itAccInfo;
         private ToolStripMenuItem itPersonalInfo;
         private ToolStripMenuItem itLogout;
-        private Panel flbTable;
         private Panel panel2;
         private Panel panel3;
         private Button btnPay;
@@ -301,5 +300,6 @@
         private ToolStripMenuItem chứcNăngToolStripMenuItem;
         private ToolStripMenuItem thêmMónCtrlDToolStripMenuItem;
         private ToolStripMenuItem toolStripMenuItem1;
+        private FlowLayoutPanel flbTable;
     }
 }
