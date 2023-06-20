@@ -183,10 +183,7 @@ namespace HoLaDrinkManager
 
         }
 
-        private void thêmMóntoolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            btnAdd_Click(this, new EventArgs());
-        }
+        
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -332,6 +329,11 @@ namespace HoLaDrinkManager
             }
             id = selected.ID;
             loadDrinkbyCategoryId(id);
+        }
+
+        private void thêmMónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            btnAdd_Click(this, new EventArgs());
         }
     }
 }

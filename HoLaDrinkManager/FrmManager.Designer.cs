@@ -95,7 +95,7 @@
             // 
             itPersonalInfo.ForeColor = Color.Blue;
             itPersonalInfo.Name = "itPersonalInfo";
-            itPersonalInfo.Size = new Size(172, 22);
+            itPersonalInfo.Size = new Size(180, 22);
             itPersonalInfo.Text = "Thông tin cá nhân";
             itPersonalInfo.Click += itPersonalInfo_Click;
             // 
@@ -103,7 +103,7 @@
             // 
             itLogout.ForeColor = Color.Blue;
             itLogout.Name = "itLogout";
-            itLogout.Size = new Size(172, 22);
+            itLogout.Size = new Size(180, 22);
             itLogout.Text = "Đăng xuất";
             itLogout.Click += itLogout_Click;
             // 
@@ -121,7 +121,7 @@
             thanhToánToolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             thanhToánToolStripMenuItem.ForeColor = Color.Blue;
             thanhToánToolStripMenuItem.Name = "thanhToánToolStripMenuItem";
-            thanhToánToolStripMenuItem.Size = new Size(174, 22);
+            thanhToánToolStripMenuItem.Size = new Size(180, 22);
             thanhToánToolStripMenuItem.Text = "Thanh Toán Ctrl+F";
             thanhToánToolStripMenuItem.Click += thanhToánToolStripMenuItem_Click;
             // 
@@ -130,9 +130,9 @@
             thêmMóntoolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             thêmMóntoolStripMenuItem.ForeColor = Color.Blue;
             thêmMóntoolStripMenuItem.Name = "thêmMóntoolStripMenuItem";
-            thêmMóntoolStripMenuItem.Size = new Size(174, 22);
+            thêmMóntoolStripMenuItem.Size = new Size(180, 22);
             thêmMóntoolStripMenuItem.Text = "Thêm Món Ctrl+D";
-            thêmMóntoolStripMenuItem.Click += thêmMóntoolStripMenuItem_Click;
+            thêmMóntoolStripMenuItem.Click += thêmMónToolStripMenuItem_Click;
             // 
             // panel2
             // 
@@ -197,6 +197,7 @@
             btnPay.TabIndex = 0;
             btnPay.Text = "Thanh toán";
             btnPay.UseVisualStyleBackColor = true;
+            btnPay.Click += btnPay_Click;
             // 
             // panel3
             // 

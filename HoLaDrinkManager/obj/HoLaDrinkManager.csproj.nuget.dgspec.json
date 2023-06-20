@@ -11,7 +11,7 @@
         "projectName": "HoLaDrinkManager",
         "projectPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\obj\\",
+        "outputPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

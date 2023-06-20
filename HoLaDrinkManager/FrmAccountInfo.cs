@@ -87,10 +87,7 @@ namespace HoLaDrinkManager
             updateAccountInfo();
 
         }
+
         #endregion
-
-
-
-
     }
 }
