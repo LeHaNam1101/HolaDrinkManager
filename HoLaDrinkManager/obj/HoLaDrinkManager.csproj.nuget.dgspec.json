@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj": {}
+    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj": {}
   },
   "projects": {
-    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj": {
+    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj",
+        "projectUniqueName": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj",
         "projectName": "HoLaDrinkManager",
-        "projectPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj",
+        "projectPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\obj\\",
         "projectStyle": "PackageReference",
@@ -45,9 +45,17 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
