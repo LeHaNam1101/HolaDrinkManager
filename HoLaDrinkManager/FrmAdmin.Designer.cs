@@ -198,6 +198,7 @@
             btnCount.TabIndex = 3;
             btnCount.Text = "Đếm";
             btnCount.UseVisualStyleBackColor = true;
+            btnCount.Click += btnCount_Click;
             // 
             // btnSearchBill
             // 
@@ -208,6 +209,7 @@
             btnSearchBill.TabIndex = 2;
             btnSearchBill.Text = "Tìm";
             btnSearchBill.UseVisualStyleBackColor = true;
+            btnSearchBill.Click += btnSearchBill_Click;
             // 
             // lbEnd
             // 
@@ -318,6 +320,7 @@
             txtDrinkID.Name = "txtDrinkID";
             txtDrinkID.Size = new Size(220, 23);
             txtDrinkID.TabIndex = 4;
+            txtDrinkID.TextChanged += txtDrinkID_TextChanged;
             // 
             // lbPrice
             // 
@@ -397,6 +400,7 @@
             btnSearchDrink.TabIndex = 0;
             btnSearchDrink.Text = "Tìm";
             btnSearchDrink.UseVisualStyleBackColor = true;
+            btnSearchDrink.Click += btnSearchDrink_Click;
             // 
             // panel3
             // 
@@ -417,6 +421,7 @@
             btnViewDrink.TabIndex = 3;
             btnViewDrink.Text = "Xem";
             btnViewDrink.UseVisualStyleBackColor = true;
+            btnViewDrink.Click += btnViewDrink_Click;
             // 
             // btnDeleteDrink
             // 
@@ -426,6 +431,7 @@
             btnDeleteDrink.TabIndex = 2;
             btnDeleteDrink.Text = "Xóa";
             btnDeleteDrink.UseVisualStyleBackColor = true;
+            btnDeleteDrink.Click += btnDeleteDrink_Click;
             // 
             // btnEditDrink
             // 
@@ -435,6 +441,7 @@
             btnEditDrink.TabIndex = 1;
             btnEditDrink.Text = "Sửa";
             btnEditDrink.UseVisualStyleBackColor = true;
+            btnEditDrink.Click += btnEditDrink_Click;
             // 
             // btnAddDrink
             // 
@@ -444,6 +451,7 @@
             btnAddDrink.TabIndex = 0;
             btnAddDrink.Text = "Thêm";
             btnAddDrink.UseVisualStyleBackColor = true;
+            btnAddDrink.Click += btnAddDrink_Click;
             // 
             // tpCategory
             // 
@@ -539,6 +547,7 @@
             btnViewCategory.TabIndex = 3;
             btnViewCategory.Text = "Xem";
             btnViewCategory.UseVisualStyleBackColor = true;
+            btnViewCategory.Click += btnViewCategory_Click;
             // 
             // btnDeleteCategory
             // 
@@ -548,6 +557,7 @@
             btnDeleteCategory.TabIndex = 2;
             btnDeleteCategory.Text = "Xóa";
             btnDeleteCategory.UseVisualStyleBackColor = true;
+            btnDeleteCategory.Click += btnDeleteCategory_Click;
             // 
             // btnEditCategory
             // 
@@ -557,6 +567,7 @@
             btnEditCategory.TabIndex = 1;
             btnEditCategory.Text = "Sửa";
             btnEditCategory.UseVisualStyleBackColor = true;
+            btnEditCategory.Click += btnEditCategory_Click;
             // 
             // btnAddCategory
             // 
@@ -566,6 +577,7 @@
             btnAddCategory.TabIndex = 0;
             btnAddCategory.Text = "Thêm";
             btnAddCategory.UseVisualStyleBackColor = true;
+            btnAddCategory.Click += btnAddCategory_Click;
             // 
             // tpTable
             // 
@@ -679,6 +691,7 @@
             btnViewTable.TabIndex = 3;
             btnViewTable.Text = "Xem";
             btnViewTable.UseVisualStyleBackColor = true;
+            btnViewTable.Click += btnViewTable_Click;
             // 
             // btnDeleteTable
             // 
@@ -688,6 +701,7 @@
             btnDeleteTable.TabIndex = 2;
             btnDeleteTable.Text = "Xóa";
             btnDeleteTable.UseVisualStyleBackColor = true;
+            btnDeleteTable.Click += btnDeleteTable_Click;
             // 
             // btnEditTable
             // 
@@ -697,6 +711,7 @@
             btnEditTable.TabIndex = 1;
             btnEditTable.Text = "Sửa";
             btnEditTable.UseVisualStyleBackColor = true;
+            btnEditTable.Click += btnEditTable_Click;
             // 
             // btnAddTable
             // 
@@ -706,6 +721,7 @@
             btnAddTable.TabIndex = 0;
             btnAddTable.Text = "Thêm";
             btnAddTable.UseVisualStyleBackColor = true;
+            btnAddTable.Click += btnAddTable_Click;
             // 
             // tpAccount
             // 
@@ -763,6 +779,7 @@
             btnResetPassword.TabIndex = 6;
             btnResetPassword.Text = "Đặt lại mật khẩu";
             btnResetPassword.UseVisualStyleBackColor = true;
+            btnResetPassword.Click += btnResetPassword_Click;
             // 
             // nbAccountType
             // 
@@ -849,6 +866,7 @@
             btnViewAccount.TabIndex = 3;
             btnViewAccount.Text = "Xem";
             btnViewAccount.UseVisualStyleBackColor = true;
+            btnViewAccount.Click += btnViewAccount_Click;
             // 
             // btnDeleteAccount
             // 
@@ -858,6 +876,7 @@
             btnDeleteAccount.TabIndex = 2;
             btnDeleteAccount.Text = "Xóa";
             btnDeleteAccount.UseVisualStyleBackColor = true;
+            btnDeleteAccount.Click += btnDeleteAccount_Click;
             // 
             // btnEditAccount
             // 
@@ -867,6 +886,7 @@
             btnEditAccount.TabIndex = 1;
             btnEditAccount.Text = "Sửa";
             btnEditAccount.UseVisualStyleBackColor = true;
+            btnEditAccount.Click += btnEditAccount_Click;
             // 
             // btnAddAcount
             // 
@@ -876,6 +896,7 @@
             btnAddAcount.TabIndex = 0;
             btnAddAcount.Text = "Thêm";
             btnAddAcount.UseVisualStyleBackColor = true;
+            btnAddAcount.Click += btnAddAcount_Click;
             // 
             // FrmAdmin
             // 

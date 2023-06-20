@@ -259,19 +259,13 @@ namespace HoLaDrinkManager
         #endregion
 
         #region Bill
-        private void btnSearchBill_Click(object sender, EventArgs e)
-        {
-            loadListBillByDate(dtpFromDate.Value, dtpEndDate.Value);
-            double sum = DgvSum(5);
-            dgvBill.Rows[0].Cells[0].Value = sum.ToString("c");
-            dgvBill.Columns[5].DefaultCellStyle.Format = "c";
-        }
+
         private void btnExport_Click(object sender, EventArgs e)
         {
             dgvBill.SelectAll();
             DataObject copydata = dgvBill.GetClipboardContent();
             if (copydata != null) Clipboard.SetDataObject(copydata);
-            
+
         }
         #endregion
 
@@ -805,13 +799,22 @@ namespace HoLaDrinkManager
 
         #endregion
 
-       
+
 
         private void btnCount_Click(object sender, EventArgs e)
         {
             loadListBillOrderByTable();
             dgvBill.Columns.RemoveAt(0);
             dgvBill.Columns[2].DefaultCellStyle.Format = "c";
+        }
+
+
+        private void btnSearchBill_Click(object sender, EventArgs e)
+        {
+            loadListBillByDate(dtpFromDate.Value, dtpEndDate.Value);
+            double sum = DgvSum(5);
+            dgvBill.Rows[0].Cells[0].Value = sum.ToString("c");
+            dgvBill.Columns[5].DefaultCellStyle.Format = "c";
         }
     }
 }
