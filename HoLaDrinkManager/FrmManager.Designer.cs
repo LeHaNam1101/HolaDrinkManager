@@ -273,11 +273,12 @@
             // lstvBill
             // 
             lstvBill.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
-            lstvBill.Location = new Point(3, 0);
+            lstvBill.Location = new Point(0, 0);
             lstvBill.Name = "lstvBill";
-            lstvBill.Size = new Size(565, 420);
+            lstvBill.Size = new Size(568, 417);
             lstvBill.TabIndex = 0;
             lstvBill.UseCompatibleStateImageBehavior = false;
+            lstvBill.View = View.Details;
             // 
             // columnHeader1
             // 
