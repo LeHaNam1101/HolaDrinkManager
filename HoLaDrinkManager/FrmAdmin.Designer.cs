@@ -906,7 +906,7 @@
             Controls.Add(tabControl);
             Name = "FrmAdmin";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "FrmAdmin";
+            Text = "Admin HolaDrink";
             tabControl.ResumeLayout(false);
             tpBill.ResumeLayout(false);
             panel2.ResumeLayout(false);

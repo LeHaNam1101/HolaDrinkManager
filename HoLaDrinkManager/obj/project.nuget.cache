@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JatNw/yfkquW3wswJfpYqGqUtN1J5zWBPZgRCR1wCKcduXw+fLW0Vawv5aKixFzL/VisYnSScyb9iLxxQixb3Q==",
+  "dgSpecHash": "yw5vf48o4MZTomncffOfUH0YApnzhxaVerXEKkX5jj4hZ020BiZr9vE2cz8SpIgUkrIwH3aO/KuNVtXhx/h3rg==",
   "success": true,
-  "projectFilePath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj",
+  "projectFilePath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
