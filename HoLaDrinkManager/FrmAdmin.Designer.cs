@@ -902,7 +902,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(859, 578);
+            ClientSize = new Size(855, 578);
             Controls.Add(tabControl);
             Name = "FrmAdmin";
             StartPosition = FormStartPosition.CenterScreen;
