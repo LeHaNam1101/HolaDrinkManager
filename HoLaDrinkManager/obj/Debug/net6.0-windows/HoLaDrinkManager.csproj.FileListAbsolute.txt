@@ -18,3 +18,11 @@ D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\r
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.FrmManager.resources
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.Properties.Resources.resources
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.FrmAccountInfo.resources
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.FrmAdmin.resources
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\obj\Debug\net6.0-windows\HoLaDrinkManager.csproj.CopyComplete
