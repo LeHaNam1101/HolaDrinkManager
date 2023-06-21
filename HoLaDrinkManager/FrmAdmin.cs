@@ -252,7 +252,7 @@ namespace HoLaDrinkManager
 
         #region Events 
         #region frmAdmin
-        private void frmAdmin_Shown(object sender, EventArgs e)
+        private void FrmAdmin_Shown(object sender, EventArgs e)
         {
             btnSearchBill.PerformClick();
         }
