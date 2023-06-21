@@ -250,6 +250,7 @@
             btnExport.TabIndex = 1;
             btnExport.Text = "Xuất File";
             btnExport.UseVisualStyleBackColor = true;
+            btnExport.Click += btnExport_Click;
             // 
             // dgvBill
             // 
