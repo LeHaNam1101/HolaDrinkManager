@@ -816,18 +816,6 @@ namespace HoLaDrinkManager
             remove { updateTable -= value; }
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
         #endregion
 
         #endregion

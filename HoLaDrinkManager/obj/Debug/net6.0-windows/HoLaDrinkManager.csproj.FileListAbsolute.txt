@@ -75,3 +75,6 @@ D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\M
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
