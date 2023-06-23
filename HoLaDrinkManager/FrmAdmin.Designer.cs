@@ -250,6 +250,7 @@
             btnExport.TabIndex = 1;
             btnExport.Text = "Xuất File";
             btnExport.UseVisualStyleBackColor = true;
+            btnExport.Click += btnExport_Click;
             // 
             // dgvBill
             // 
@@ -907,6 +908,8 @@
             Name = "FrmAdmin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Admin HolaDrink";
+            Shown += FrmAdmin_Shown;
+            Click += btnEditAccount_Click;
             tabControl.ResumeLayout(false);
             tpBill.ResumeLayout(false);
             panel2.ResumeLayout(false);

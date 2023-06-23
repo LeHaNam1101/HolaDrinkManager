@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj": {}
+    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj": {}
   },
   "projects": {
-    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj": {
+    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj",
+        "projectUniqueName": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj",
         "projectName": "HoLaDrinkManager",
-        "projectPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj",
+        "projectPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\obj\\",
+        "outputPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,9 +45,35 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.7, )"
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

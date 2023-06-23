@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            label1 = new Label();
             txtPassword = new TextBox();
             txtUsername = new TextBox();
             lbPassword = new Label();
             lbUsername = new Label();
             btnLogin = new Button();
             btnExit = new Button();
-            label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -50,6 +50,17 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(644, 136);
             panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.Blue;
+            label1.Location = new Point(172, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(74, 17);
+            label1.TabIndex = 4;
+            label1.Text = "HoLaDrink";
             // 
             // txtPassword
             // 
@@ -111,17 +122,6 @@
             btnExit.Text = "Thoát";
             btnExit.UseVisualStyleBackColor = true;
             btnExit.Click += btnExit_Click;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.Blue;
-            label1.Location = new Point(172, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(74, 17);
-            label1.TabIndex = 4;
-            label1.Text = "HoLaDrink";
             // 
             // FrmLogin
             // 

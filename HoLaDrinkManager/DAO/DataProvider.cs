@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -6,19 +7,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Microsoft.Extensions.Options;
 namespace HoLaDrinkManager.DAO
 {
     public class DataProvider
     {
+
         private static DataProvider instance;
         public static DataProvider Instance
         {
             get { if (instance == null) instance = new DataProvider(); return DataProvider.instance; }
             private set { DataProvider.instance = value; }
         }
-        private DataProvider() { }
 
-        private string connectionSTR = "Data Source=LEHANAM;Initial Catalog=HolaDrinkManager;Integrated Security=True";
+        private string connectionSTR;
+
+        private DataProvider()
+        {
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            connectionSTR = configuration.GetConnectionString("DefaultConnection");
+        }
+
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {

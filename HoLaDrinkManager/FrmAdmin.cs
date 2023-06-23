@@ -1,5 +1,6 @@
 ﻿using HoLaDrinkManager.DAO;
 using HoLaDrinkManager.DTO;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,6 +12,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace HoLaDrinkManager
 {
@@ -252,7 +254,7 @@ namespace HoLaDrinkManager
 
         #region Events 
         #region frmAdmin
-        private void frmAdmin_Shown(object sender, EventArgs e)
+        private void FrmAdmin_Shown(object sender, EventArgs e)
         {
             btnSearchBill.PerformClick();
         }
@@ -262,10 +264,41 @@ namespace HoLaDrinkManager
 
         private void btnExport_Click(object sender, EventArgs e)
         {
-            dgvBill.SelectAll();
-            DataObject copydata = dgvBill.GetClipboardContent();
-            if (copydata != null) Clipboard.SetDataObject(copydata);
+            // Create a new Excel package
+            ExcelPackage package = new ExcelPackage();
 
+            // Add a new worksheet to the Excel package
+            ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Sheet1");
+
+            // Set the column headers
+            for (int i = 1; i <= dgvBill.Columns.Count; i++)
+            {
+                worksheet.Cells[1, i].Value = dgvBill.Columns[i - 1].HeaderText;
+            }
+
+            // Set the cell values
+            for (int i = 0; i < dgvBill.Rows.Count; i++)
+            {
+                for (int j = 0; j < dgvBill.Columns.Count; j++)
+                {
+                    worksheet.Cells[i + 2, j + 1].Value = dgvBill.Rows[i].Cells[j].Value;
+                }
+            }
+
+            // Auto-fit the columns
+            worksheet.Cells.AutoFitColumns();
+
+            // Save the Excel package to a file
+            using (var saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.Filter = "Excel Files (*.xlsx)|*.xlsx";
+                saveFileDialog.DefaultExt = "xlsx";
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    package.SaveAs(new FileInfo(saveFileDialog.FileName));
+                    MessageBox.Show("Data exported successfully!", "Export Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
         }
         #endregion
 
@@ -782,18 +815,6 @@ namespace HoLaDrinkManager
             add { updateTable += value; }
             remove { updateTable -= value; }
         }
-
-
-
-
-
-
-
-
-
-
-
-
 
         #endregion
 

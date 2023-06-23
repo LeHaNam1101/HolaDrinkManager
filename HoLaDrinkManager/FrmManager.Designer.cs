@@ -41,7 +41,6 @@
             label1 = new Label();
             txtTotalPrice = new TextBox();
             nmDiscount = new NumericUpDown();
-            btnDiscount = new Button();
             btnPay = new Button();
             panel3 = new Panel();
             cbDrink = new ComboBox();
@@ -56,6 +55,7 @@
             columnHeader2 = new ColumnHeader();
             columnHeader3 = new ColumnHeader();
             columnHeader4 = new ColumnHeader();
+            lbDiscount = new Label();
             menuStrip1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nmDiscount).BeginInit();
@@ -95,7 +95,7 @@
             // 
             itPersonalInfo.ForeColor = Color.Blue;
             itPersonalInfo.Name = "itPersonalInfo";
-            itPersonalInfo.Size = new Size(180, 22);
+            itPersonalInfo.Size = new Size(172, 22);
             itPersonalInfo.Text = "Thông tin cá nhân";
             itPersonalInfo.Click += itPersonalInfo_Click;
             // 
@@ -103,7 +103,7 @@
             // 
             itLogout.ForeColor = Color.Blue;
             itLogout.Name = "itLogout";
-            itLogout.Size = new Size(180, 22);
+            itLogout.Size = new Size(172, 22);
             itLogout.Text = "Đăng xuất";
             itLogout.Click += itLogout_Click;
             // 
@@ -121,7 +121,7 @@
             thanhToánToolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             thanhToánToolStripMenuItem.ForeColor = Color.Blue;
             thanhToánToolStripMenuItem.Name = "thanhToánToolStripMenuItem";
-            thanhToánToolStripMenuItem.Size = new Size(180, 22);
+            thanhToánToolStripMenuItem.Size = new Size(174, 22);
             thanhToánToolStripMenuItem.Text = "Thanh Toán Ctrl+F";
             thanhToánToolStripMenuItem.Click += thanhToánToolStripMenuItem_Click;
             // 
@@ -130,16 +130,16 @@
             thêmMóntoolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             thêmMóntoolStripMenuItem.ForeColor = Color.Blue;
             thêmMóntoolStripMenuItem.Name = "thêmMóntoolStripMenuItem";
-            thêmMóntoolStripMenuItem.Size = new Size(180, 22);
+            thêmMóntoolStripMenuItem.Size = new Size(174, 22);
             thêmMóntoolStripMenuItem.Text = "Thêm Món Ctrl+D";
             thêmMóntoolStripMenuItem.Click += thêmMónToolStripMenuItem_Click;
             // 
             // panel2
             // 
+            panel2.Controls.Add(lbDiscount);
             panel2.Controls.Add(label1);
             panel2.Controls.Add(txtTotalPrice);
             panel2.Controls.Add(nmDiscount);
-            panel2.Controls.Add(btnDiscount);
             panel2.Controls.Add(btnPay);
             panel2.Location = new Point(577, 462);
             panel2.Name = "panel2";
@@ -175,17 +175,6 @@
             nmDiscount.Name = "nmDiscount";
             nmDiscount.Size = new Size(114, 23);
             nmDiscount.TabIndex = 2;
-            // 
-            // btnDiscount
-            // 
-            btnDiscount.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnDiscount.ForeColor = Color.Blue;
-            btnDiscount.Location = new Point(3, 11);
-            btnDiscount.Name = "btnDiscount";
-            btnDiscount.Size = new Size(114, 29);
-            btnDiscount.TabIndex = 1;
-            btnDiscount.Text = "Khuyến mãi";
-            btnDiscount.UseVisualStyleBackColor = true;
             // 
             // btnPay
             // 
@@ -300,6 +289,17 @@
             columnHeader4.Text = "Thành tiền";
             columnHeader4.Width = 100;
             // 
+            // lbDiscount
+            // 
+            lbDiscount.AutoSize = true;
+            lbDiscount.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lbDiscount.ForeColor = Color.Blue;
+            lbDiscount.Location = new Point(3, 17);
+            lbDiscount.Name = "lbDiscount";
+            lbDiscount.Size = new Size(101, 21);
+            lbDiscount.TabIndex = 5;
+            lbDiscount.Text = "Khuyến mãi";
+            // 
             // FrmManager
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -343,7 +343,6 @@
         private Label label1;
         private TextBox txtTotalPrice;
         private NumericUpDown nmDiscount;
-        private Button btnDiscount;
         private ToolStripMenuItem chứcNăngToolStripMenuItem;
         private ToolStripMenuItem thanhToánToolStripMenuItem;
         private ToolStripMenuItem thêmMóntoolStripMenuItem;
@@ -355,5 +354,6 @@
         private ColumnHeader columnHeader2;
         private ColumnHeader columnHeader3;
         private ColumnHeader columnHeader4;
+        private Label lbDiscount;
     }
 }
