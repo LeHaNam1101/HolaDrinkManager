@@ -166,24 +166,26 @@ namespace HoLaDrinkManager
                 MessageBox.Show("Bàn này hiện tại chưa có món được thêm");
                 return;
             }
+
             int idBill = BillDAO.Instance.GetUncheckBillIdByTableId(table.ID);
             int discount = (int)nmDiscount.Value;
-            double totalPrice = Convert.ToDouble(txtTotalPrice.Text.Split(",")[0]);
-            double finalPrice = Convert.ToDouble(totalPrice - ((totalPrice / 100) * discount));
-            string text = finalPrice.ToString("c");
+            float totalPrice = float.Parse(txtTotalPrice.Text, NumberStyles.Currency);
+            float finalPrice = totalPrice - (totalPrice * discount / 100);
+
             if (idBill != -1)
             {
-                if (MessageBox.Show(string.Format("Bạn có muốn thanh toán cho bàn {0}\n Tổng tiền (Đã bao gồm giảm giá)= {1}", table.Name, text), "Thông báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
+                if (MessageBox.Show($"Bạn có muốn thanh toán cho bàn {table.Name}\n Tổng tiền (Đã bao gồm giảm giá) = {finalPrice.ToString("c")}", "Thông báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
-                    BillDAO.Instance.Checkout(idBill, discount, (float)finalPrice);
+                    BillDAO.Instance.Checkout(idBill, discount, finalPrice);
                     ShowBill(table.ID);
                     loadTable();
                 }
             }
 
+
         }
 
-        
+
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -335,5 +337,29 @@ namespace HoLaDrinkManager
         {
             btnAdd_Click(this, new EventArgs());
         }
+
+        private void btnDiscount_Click(object sender, EventArgs e)
+        {
+            Table table = lstvBill.Tag as Table;
+
+            if (table == null)
+            {
+                MessageBox.Show("Hãy chọn bàn");
+                return;
+            }
+            if (lstvBill.Items.Count == 0)
+            {
+                MessageBox.Show("Bàn này hiện tại chưa có món được thêm");
+                return;
+            }
+
+            int discount = (int)nmDiscount.Value;
+            float totalPrice = float.Parse(txtTotalPrice.Text, NumberStyles.Currency);
+            float finalPrice = totalPrice - (totalPrice * discount / 100);
+
+            txtTotalPrice.Text = finalPrice.ToString("c");
+
+        }
+
     }
 }
