@@ -78,3 +78,9 @@ D:\HOCTAPFPT\GitHub\HolaDrinkManager\HolaDrinkManager\bin\Debug\net6.0-windows\r
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\System.Text.Json.dll
 D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\Humanizer.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+D:\HOCTAPFPT\GitHub\HolaDrinkManager\HoLaDrinkManager\bin\Debug\net6.0-windows\appsettings.json

@@ -19,9 +19,19 @@ namespace HoLaDrinkManager.DAO
             get { if (instance == null) instance = new DataProvider(); return DataProvider.instance; }
             private set { DataProvider.instance = value; }
         }
-        private DataProvider() { }
 
-        private string connectionSTR = "Data Source=LEHANAM;Initial Catalog=HolaDrinkManager;Integrated Security=True";
+        private string connectionSTR;
+
+        private DataProvider()
+        {
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            connectionSTR = configuration.GetConnectionString("DefaultConnection");
+        }
+
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
