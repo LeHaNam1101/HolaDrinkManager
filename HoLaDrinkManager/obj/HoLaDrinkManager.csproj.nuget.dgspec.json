@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj": {}
+    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj": {}
   },
   "projects": {
-    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj": {
+    "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj",
+        "projectUniqueName": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj",
         "projectName": "HoLaDrinkManager",
-        "projectPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\HoLaDrinkManager.csproj",
+        "projectPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\HoLaDrinkManager.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HoLaDrinkManager\\obj\\",
+        "outputPath": "D:\\HOCTAPFPT\\GitHub\\HolaDrinkManager\\HolaDrinkManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
